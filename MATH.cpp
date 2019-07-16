@@ -1,7 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-#define int long long
-
 struct advance_math{
 	vector<int> _f, _fi;
 	int max_n, _mod;
@@ -46,8 +42,3 @@ struct advance_math{
 		return C(_y - 1, _x + _y - 1);
 	}
 } mt;
-
-signed main(){
-	
-}
-
